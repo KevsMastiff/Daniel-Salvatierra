@@ -1,0 +1,24 @@
+    body {
+        background-color: purple;
+    }
+    table {
+    font-family:arial,sans-serif;
+    width: 100%;
+    }
+    th, td {
+     border-style: solid;
+        border: 5px solid;
+    border-color:Black;
+    text-align:  center;
+    padding: 10px;
+    }
+    h1 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+        font-size: 48px;
+    }
+    p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+        font-size: 48px;
+    }
