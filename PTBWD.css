@@ -18,10 +18,25 @@ body {
     text-align:center;
     font-family: Arial, Helvetica, sans-serif;
 }
-.content {
-    padding: 180px;
-    color:black;
-    text-align: top left;
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column1 {
+    float: left;
+    width: auto;
+    padding: 120px;
+}
+.column2 {
+    float: left;
+    width: auto;
+    padding: 120px;
+}
+.column3 {
+    float: left;
+    width: auto;
+    padding: 120px;
 }
 a:link, a:visited {
     margin: 10px;
@@ -43,4 +58,13 @@ a:hover, a:active {
     padding: 10px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+}
+.pic1 {
+    border-color: black;
+    border-radius: 10px;
+    background-position: right;
+}
+img {
+    border-radius: 10px;
+    border: black;
 }
